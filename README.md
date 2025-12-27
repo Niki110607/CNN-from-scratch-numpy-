@@ -6,7 +6,7 @@ I built this project to really get a understanding of the math that is done behi
 
 ## Core Architecture
 * **Forward propagation:** Sliding window kernels for feature extraction, decreasing the array size using a Max Pooling layer and calculating the final output with Fully Connected layers.
-* **Backpropagation:** Calculated gradients for 4D tensors manually.
+* **Backpropagation:** Calculating gradients for 4D tensors manually.
 * **Activations:** Implemented ReLU and Softmax functions.
 
 ## Optimization and Regularization
@@ -17,4 +17,4 @@ I built this project to really get a understanding of the math that is done behi
 ## Performance
 * **Dataset:** MNIST Digits
 * **Accuracy:** 98.5%
-* **Loss Function:** Cross-Entropy
+* **Loss Function:** Cross-Entropy 
